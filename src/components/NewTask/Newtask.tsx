@@ -18,8 +18,11 @@ const Newtask = () => {
 
     return (
         <div className = "new_task">
+        
             <input type="text" value = {input}  onChange = {(e:React.ChangeEvent<HTMLInputElement>) => setInput(e.target.value)}   />
-            <button className = "add_button"  onClick = {handleSubmit} >Add Task</button>
+       
+          <button className = "add_button"  onClick = {handleSubmit} >Add Task</button>
+     
         </div>
     )
 }

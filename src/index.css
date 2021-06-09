@@ -244,7 +244,7 @@ body {
   font-style: 400;
   color: #333;
   font-size: 16px;
-  background-color: #7a26da;
+  background-color: #626164;
 }
 h1,
 h2,
@@ -895,13 +895,14 @@ a:focus {
   text-align: center;
 }
 .list-item.TASK_PINNED .icon-star {
-  color: #c597d3;
+  color: #302e31;
 }
 .list-item.TASK_ARCHIVED input[type="text"] {
   color: #aaa;
 }
 .list-item:hover {
-  background-image: linear-gradient(to bottom, #edc9f7 0%, #edc9f7 100%);
+  /* background-image: linear-gradient(to bottom, #edc9f7 0%, #edc9f7 100%); */
+  background-color: rgba(214, 188, 72, 0.205);
 }
 .list-item:hover .checkbox {
   cursor: pointer;
@@ -985,7 +986,7 @@ a:focus {
   background: white;
 }
 .page.lists-show nav {
-  background: #c597d3;
+  background: #ffe600;
   padding: 1.5rem 1.25rem;
   text-align: center;
 }
@@ -1019,32 +1020,31 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 5rem;
   margin-bottom: 4rem;
 }
 
 .new_task input {
   width: 30rem;
-  border-radius: 20px;
-  padding-left: 1rem;
+  border-radius: 10px;
+  padding-left: 5rem;
   font-size: 18px !important;
 }
 
-.new_task button {
-  margin-left: 1rem;
-}
-
 .add_button {
+ 
   padding: 10px 20px;
   border-radius: 5px;
   background: white;
   font-size: bold;
   transition: 0.3s all;
-  border: 1px solid white;
+  border: 3px solid white;
+  background: rgba(14, 170, 209, 0.904);
+  color: white;
 }
 
 .add_button:hover {
-  background: rgb(105, 105, 223);
+  background: rgba(15, 15, 58, 0.637);
   color: white;
   border: 1px solid white;
 }

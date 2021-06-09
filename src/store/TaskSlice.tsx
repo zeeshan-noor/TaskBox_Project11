@@ -3,10 +3,10 @@ import {TaskInterface} from "../components/Task/Task"
 
 const initialState:TaskInterface[] = [
 
-    { id: '1', title: 'Play Football', state: 'TASK_INBOX' },
-    { id: '2', title: 'Lunch', state: 'TASK_INBOX' },
-    { id: '3', title: 'Work', state: 'TASK_INBOX' },
-    { id: '4', title: 'Watch TV', state: 'TASK_INBOX' },
+    { id: '1', title: 'Zeeshan Noor', state: 'TASK_PINNED' },
+    { id: '2', title: 'Abdullah', state: 'TASK_INBOX' },
+    { id: '3', title: 'Mustafa', state: 'TASK_INBOX' },
+    { id: '4', title: 'Usama', state: 'TASK_INBOX' },
 ]
 
 const taskSlice = createSlice({
